@@ -1,0 +1,30 @@
+/* Estilos para el encabezado y el menú de navegación */
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 1rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+nav li {
+    margin-right: 1rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para la sección de presentación */
+#presentacion {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding:0%
+}
